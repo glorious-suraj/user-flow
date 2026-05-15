@@ -53,7 +53,7 @@ const HomeScreen = () => {
         <View style={styles.headerRow}>
           <View>
             <Text style={styles.userName}>{userData?.fullName}</Text>
-            <Text style={styles.subText}>API fetched content</Text>
+            <Text style={styles.subText}>Welcome to your dashboard</Text>
           </View>
 
           <TouchableOpacity
