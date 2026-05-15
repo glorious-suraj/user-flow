@@ -29,7 +29,7 @@ const LoginScreen = () => {
 
   return (
     <ScreenLayout>
-      <KeyboardAvoidingView style={{ flex: 1 }}>
+      <KeyboardAvoidingView style={{ flex: 1 }} behavior='height'>
         <ScrollView
           keyboardShouldPersistTaps="handled"
           showsVerticalScrollIndicator={false}

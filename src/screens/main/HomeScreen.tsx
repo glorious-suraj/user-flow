@@ -52,9 +52,7 @@ const HomeScreen = () => {
       <View style={styles.screenWrap}>
         <View style={styles.headerRow}>
           <View>
-             <Text style={styles.userName}>
-      {userData?.fullName}
-    </Text>
+            <Text style={styles.userName}>{userData?.fullName}</Text>
             <Text style={styles.subText}>API fetched content</Text>
           </View>
 
@@ -101,11 +99,11 @@ const styles = StyleSheet.create({
     marginBottom: width * 0.05,
   },
   userName: {
-  color: colors.black,
-  fontSize: width * 0.06,
-  fontWeight: '700',
-  marginTop: width * 0.01,
-},
+    color: colors.black,
+    fontSize: width * 0.06,
+    fontWeight: '700',
+    marginTop: width * 0.01,
+  },
   subText: {
     color: colors.gray,
     fontSize: width * 0.037,
