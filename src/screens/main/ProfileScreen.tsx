@@ -32,16 +32,18 @@ const ProfileScreen = () => {
 
         <View style={styles.infoCard}>
           <View style={styles.infoRow}>
-            <Text style={styles.infoTitle}>Account</Text>
+            <Text style={styles.infoTitle}>Account Type</Text>
+            <Text style={styles.infoValue}>Personal</Text>
+          </View>
+
+          <View style={styles.infoRow}>
+            <Text style={styles.infoTitle}>Device</Text>
+            <Text style={styles.infoValue}>Android</Text>
+          </View>
+
+          <View style={styles.infoRow}>
+            <Text style={styles.infoTitle}>Session</Text>
             <Text style={styles.activeText}>Active</Text>
-          </View>
-          <View style={styles.infoRow}>
-            <Text style={styles.infoTitle}>Storage</Text>
-            <Text style={styles.infoValue}>Redux Persist</Text>
-          </View>
-          <View style={styles.infoRow}>
-            <Text style={styles.infoTitle}>State</Text>
-            <Text style={styles.infoValue}>Redux Toolkit</Text>
           </View>
         </View>
 
